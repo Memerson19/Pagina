@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Titulo {
+    width: 90%;
+    text-align: center;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.Titulo {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+header {
+    background-image: radial-gradient(circle at 85.36% 111.24%, #cbdfd4 0, #c2cfc6 16.67%, #b4bab5 33.33%, #a2a0a2 50%, #8e8790 66.67%, #7e7583 83.33%, #70687a 100%);
+    height: 100vh;
+    /*background-image: linear-gradient(to top, rgba(161, 140, 209, 0.082) 0%, rgba(251, 194, 235, 0.116) 100%), url(../team-competing-in-tug-of-war.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Boton {
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: 700;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+  
+}
+
+.Boton {
+    border: 0;
+    outline: 0;
+    background-image: linear-gradient(to top right, yellow, rgb(255, 115, 0));
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}  
+
+.Boton:hover {
+    cursor: pointer;
+    transform: translateY(-3px);    
+}   
+
+.Boton:active {
+    transform: translateY(3px);
+}
+
+.Boton {
+    border: 0;
+    outline: 0;
+    background-image: linear-gradient(to top right, orange, red);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.text {
+    text-align: center;
+    text-transform: none;
+    padding: 32px;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 16px;
+}
+
+.link {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
